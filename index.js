@@ -7,6 +7,4 @@ const webpack = require('webpack'),
         stats: {
             colors: true
         }
-    }).listen(3000, function(){
-    	console.log("Server listen in http://localhost:3000")
-    });
+    }).listen(3000);

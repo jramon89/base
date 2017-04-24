@@ -13,10 +13,10 @@ class Layout extends Component{
 		return(
 			<section>
 				<header>
-					{title}
+					<div>{title}</div>
 				</header>
 				<article>
-					{children}
+					<div>{children}</div>
 				</article>
 			</section>
 		);

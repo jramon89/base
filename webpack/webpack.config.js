@@ -25,6 +25,9 @@ module.exports = {
             }, {
                 loader: "sass-loader"
             }]
+        }, {
+            test: /\.(jpe?g|png|gif|svg|ttf|woff|woff2|eot)$/,
+            use: "url-loader"
         }]
     },
     plugins: [
