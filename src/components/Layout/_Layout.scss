@@ -1,20 +1,21 @@
-body{
-	margin:0;
-	font-family: Sans-serif;
+body {
+    margin: 0;
+    font-family: Sans-serif;
+}
 
+header {
+    background: $template-color;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    div {
+        margin: 20px;
+    }
 }
-header{
-	background: $template-color;
-	display: inline-block;
-	text-align:center;
-	width: 100%;
-	div{
-		margin: 20px;
-		color: #fff;
-	}
-}
-article{
-	div{
-		margin: 15px;
-	}
+
+article {
+    div {
+        margin: 15px;
+    }
 }
